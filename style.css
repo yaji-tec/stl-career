@@ -1,0 +1,163 @@
+.header__logo {
+    margin-top: 6px;
+    text-align: center;
+  }
+  
+  .header__title {
+    display: none;
+  }
+  
+  .header__logo-image {
+    width: 80px;
+    height: 80px;
+  }
+  .header__list {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  
+  .header__item {
+    display: inline-block;
+    padding: 0 16px;
+  }
+  .header__link {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #626063;
+    white-space: nowrap;
+  }
+  
+  .header__item:hover .header__link {
+    color: #fd7893;
+  }
+ 
+  .hero__title {
+    color: #000000;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero__title__accent {
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+    .hero__subtitle {
+    white-space: pre-line;
+    color: #DC1434;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+    .hero {
+    position: relative;
+    background-image: url(img/career.jpg);
+    background-size: cover;
+    height: 100vh;
+    max-height: 1200px;
+  }
+  .member {
+    background-color: #f4f2ef;
+  }
+  .member__title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 16px 0;
+  }
+  .member__summary {
+    cursor: pointer;
+    list-style: none;
+  } 
+  .card {
+    position: relative;
+    height: 300px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 12px;
+  }
+  .member__list {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .member__item {
+    flex-basis: 26%;
+    margin-bottom: 80px;
+  } 
+  .card__details {
+    padding: 40px 20px;
+  }
+  .member__image {
+    width: 150px;
+    height:150px;
+  } 
+  .faq {
+    background-color: #fbf2f2;
+  }
+  .faq__title {
+    margin: 0;
+  }
+  .faq__list {
+    list-style: none;
+  }
+  .faq__summary {
+    cursor: pointer;
+  }
+  .faq {
+    background-color: #fbf2f2;
+    /* これ以降のコードを追加 */
+    padding: 60px 0;
+  }
+  
+  .faq__title {
+    margin: 0;
+    /* これ以降のコードを追加 */
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .faq__item {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 24px;
+  }
+  .footer {
+    background-color: #626063;
+  }
+  .footer__list {
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  .footer__item {  
+    flex-basis: 23%;
+    padding: 0 12px; 
+  }
+  
+  .footer__item:nth-child(n) {
+    margin-right: 8px;
+  }
+  
+  .footer__item:last-child,
+  .footer__item:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+  .footer__link:hover {
+    text-decoration: underline #ffffff;
+  }
+  .footer__copyright {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    padding-bottom: 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    white-space: nowrap;
+  }
